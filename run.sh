@@ -1,0 +1,1 @@
+gcc -o game main.c lib/libraylib.a -no-pie -D_DEFAULT_SOURCE -lGL -lm -lpthread -ldl -lrt -lX11
